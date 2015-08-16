@@ -23,6 +23,7 @@
 		1A054F851B80137E005E0100 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Delegates/AppDelegate.m; sourceTree = "<group>"; };
 		1A054F881B80138C005E0100 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Images/Images.xcassets; sourceTree = "<group>"; };
 		1A054F8D1B801403005E0100 /* ShowTime.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ShowTime.entitlements; path = Entitlements/ShowTime.entitlements; sourceTree = "<group>"; };
+		1A10EF2C1B803F59009D0439 /* Icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon1024.png; path = Images/Icon1024.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				1A054F881B80138C005E0100 /* Images.xcassets */,
+				1A10EF2C1B803F59009D0439 /* Icon1024.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -140,7 +142,7 @@
 						DevelopmentTeam = D474HU5D6W;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};

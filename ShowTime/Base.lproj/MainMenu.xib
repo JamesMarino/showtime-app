@@ -11,7 +11,41 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
+            <connections>
+                <outlet property="statusMenu" destination="SYk-mh-xVP" id="Kzr-Je-xtw"/>
+            </connections>
+        </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu id="SYk-mh-xVP">
+            <items>
+                <menuItem title="Contact" id="mOs-br-5hm">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="clickContact:" target="Voe-Tx-rLC" id="Icr-00-csF"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="About" keyEquivalent="i" id="G3j-Qa-rhN">
+                    <connections>
+                        <action selector="clickAbout:" target="Voe-Tx-rLC" id="Xcr-zb-3xw"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="Raa-rp-kqF"/>
+                <menuItem title="ShowTime v1.0" id="sDk-1Y-l21">
+                    <attributedString key="attributedTitle"/>
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="clickAppAbout:" target="Voe-Tx-rLC" id="9Rr-Iv-X8B"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="laC-ug-OAM"/>
+                <menuItem title="Close" keyEquivalent="q" id="zNO-hv-IKL">
+                    <connections>
+                        <action selector="terminate:" target="-1" id="I2x-gt-7AA"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="372.5" y="283.5"/>
+        </menu>
     </objects>
 </document>
