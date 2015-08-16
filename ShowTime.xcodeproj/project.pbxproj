@@ -7,45 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A054F631B80131B005E0100 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A054F621B80131B005E0100 /* AppDelegate.m */; };
-		1A054F651B80131B005E0100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A054F641B80131B005E0100 /* main.m */; };
-		1A054F671B80131B005E0100 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A054F661B80131B005E0100 /* Images.xcassets */; };
 		1A054F6A1B80131B005E0100 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A054F681B80131B005E0100 /* MainMenu.xib */; };
-		1A054F761B80131C005E0100 /* ShowTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A054F751B80131C005E0100 /* ShowTimeTests.m */; };
+		1A054F821B801369005E0100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A054F801B801369005E0100 /* main.m */; };
+		1A054F861B80137E005E0100 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A054F851B80137E005E0100 /* AppDelegate.m */; };
+		1A054F891B80138C005E0100 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A054F881B80138C005E0100 /* Images.xcassets */; };
+		1A054F8E1B801403005E0100 /* ShowTime.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1A054F8D1B801403005E0100 /* ShowTime.entitlements */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1A054F701B80131C005E0100 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1A054F541B80131B005E0100 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A054F5B1B80131B005E0100;
-			remoteInfo = ShowTime;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1A054F5C1B80131B005E0100 /* ShowTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A054F601B80131B005E0100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A054F611B80131B005E0100 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1A054F621B80131B005E0100 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A054F641B80131B005E0100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A054F661B80131B005E0100 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A054F691B80131B005E0100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		1A054F6F1B80131C005E0100 /* ShowTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A054F741B80131C005E0100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A054F751B80131C005E0100 /* ShowTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowTimeTests.m; sourceTree = "<group>"; };
+		1A054F7F1B801369005E0100 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Support/Info.plist; sourceTree = "<group>"; };
+		1A054F801B801369005E0100 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Support/main.m; sourceTree = "<group>"; };
+		1A054F841B80137E005E0100 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Delegates/AppDelegate.h; sourceTree = "<group>"; };
+		1A054F851B80137E005E0100 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Delegates/AppDelegate.m; sourceTree = "<group>"; };
+		1A054F881B80138C005E0100 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Images/Images.xcassets; sourceTree = "<group>"; };
+		1A054F8D1B801403005E0100 /* ShowTime.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ShowTime.entitlements; path = Entitlements/ShowTime.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1A054F591B80131B005E0100 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A054F6C1B80131C005E0100 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,7 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				1A054F5E1B80131B005E0100 /* ShowTime */,
-				1A054F721B80131C005E0100 /* ShowTimeTests */,
 				1A054F5D1B80131B005E0100 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				1A054F5C1B80131B005E0100 /* ShowTime.app */,
-				1A054F6F1B80131C005E0100 /* ShowTimeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,39 +55,55 @@
 		1A054F5E1B80131B005E0100 /* ShowTime */ = {
 			isa = PBXGroup;
 			children = (
-				1A054F611B80131B005E0100 /* AppDelegate.h */,
-				1A054F621B80131B005E0100 /* AppDelegate.m */,
-				1A054F661B80131B005E0100 /* Images.xcassets */,
-				1A054F681B80131B005E0100 /* MainMenu.xib */,
-				1A054F5F1B80131B005E0100 /* Supporting Files */,
+				1A054F8C1B8013DA005E0100 /* Entitilements */,
+				1A054F831B801370005E0100 /* Delegates */,
+				1A054F5F1B80131B005E0100 /* Support */,
+				1A054F8A1B801399005E0100 /* Views */,
+				1A054F871B801381005E0100 /* Images */,
 			);
 			path = ShowTime;
 			sourceTree = "<group>";
 		};
-		1A054F5F1B80131B005E0100 /* Supporting Files */ = {
+		1A054F5F1B80131B005E0100 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				1A054F601B80131B005E0100 /* Info.plist */,
-				1A054F641B80131B005E0100 /* main.m */,
+				1A054F7F1B801369005E0100 /* Info.plist */,
+				1A054F801B801369005E0100 /* main.m */,
 			);
-			name = "Supporting Files";
+			name = Support;
 			sourceTree = "<group>";
 		};
-		1A054F721B80131C005E0100 /* ShowTimeTests */ = {
+		1A054F831B801370005E0100 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
-				1A054F751B80131C005E0100 /* ShowTimeTests.m */,
-				1A054F731B80131C005E0100 /* Supporting Files */,
+				1A054F841B80137E005E0100 /* AppDelegate.h */,
+				1A054F851B80137E005E0100 /* AppDelegate.m */,
 			);
-			path = ShowTimeTests;
+			name = Delegates;
 			sourceTree = "<group>";
 		};
-		1A054F731B80131C005E0100 /* Supporting Files */ = {
+		1A054F871B801381005E0100 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				1A054F741B80131C005E0100 /* Info.plist */,
+				1A054F881B80138C005E0100 /* Images.xcassets */,
 			);
-			name = "Supporting Files";
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1A054F8A1B801399005E0100 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A054F681B80131B005E0100 /* MainMenu.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1A054F8C1B8013DA005E0100 /* Entitilements */ = {
+			isa = PBXGroup;
+			children = (
+				1A054F8D1B801403005E0100 /* ShowTime.entitlements */,
+			);
+			name = Entitilements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,24 +126,6 @@
 			productReference = 1A054F5C1B80131B005E0100 /* ShowTime.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1A054F6E1B80131C005E0100 /* ShowTimeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A054F7C1B80131C005E0100 /* Build configuration list for PBXNativeTarget "ShowTimeTests" */;
-			buildPhases = (
-				1A054F6B1B80131C005E0100 /* Sources */,
-				1A054F6C1B80131C005E0100 /* Frameworks */,
-				1A054F6D1B80131C005E0100 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1A054F711B80131C005E0100 /* PBXTargetDependency */,
-			);
-			name = ShowTimeTests;
-			productName = ShowTimeTests;
-			productReference = 1A054F6F1B80131C005E0100 /* ShowTimeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,10 +137,12 @@
 				TargetAttributes = {
 					1A054F5B1B80131B005E0100 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					1A054F6E1B80131C005E0100 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 1A054F5B1B80131B005E0100;
+						DevelopmentTeam = D474HU5D6W;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -181,7 +160,6 @@
 			projectRoot = "";
 			targets = (
 				1A054F5B1B80131B005E0100 /* ShowTime */,
-				1A054F6E1B80131C005E0100 /* ShowTimeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,15 +169,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A054F671B80131B005E0100 /* Images.xcassets in Resources */,
+				1A054F891B80138C005E0100 /* Images.xcassets in Resources */,
 				1A054F6A1B80131B005E0100 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A054F6D1B80131C005E0100 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1A054F8E1B801403005E0100 /* ShowTime.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,28 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A054F651B80131B005E0100 /* main.m in Sources */,
-				1A054F631B80131B005E0100 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A054F6B1B80131C005E0100 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A054F761B80131C005E0100 /* ShowTimeTests.m in Sources */,
+				1A054F861B80137E005E0100 /* AppDelegate.m in Sources */,
+				1A054F821B801369005E0100 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1A054F711B80131C005E0100 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1A054F5B1B80131B005E0100 /* ShowTime */;
-			targetProxy = 1A054F701B80131C005E0100 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1A054F681B80131B005E0100 /* MainMenu.xib */ = {
@@ -328,8 +284,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShowTime/Entitlements/ShowTime.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ShowTime/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ShowTime/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -339,46 +297,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShowTime/Entitlements/ShowTime.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ShowTime/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ShowTime/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		1A054F7D1B80131C005E0100 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ShowTimeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShowTime.app/Contents/MacOS/ShowTime";
-			};
-			name = Debug;
-		};
-		1A054F7E1B80131C005E0100 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ShowTimeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShowTime.app/Contents/MacOS/ShowTime";
 			};
 			name = Release;
 		};
@@ -399,14 +323,6 @@
 			buildConfigurations = (
 				1A054F7A1B80131C005E0100 /* Debug */,
 				1A054F7B1B80131C005E0100 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		1A054F7C1B80131C005E0100 /* Build configuration list for PBXNativeTarget "ShowTimeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A054F7D1B80131C005E0100 /* Debug */,
-				1A054F7E1B80131C005E0100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
