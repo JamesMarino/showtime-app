@@ -55,11 +55,11 @@
 		1A054F5E1B80131B005E0100 /* ShowTime */ = {
 			isa = PBXGroup;
 			children = (
-				1A054F8C1B8013DA005E0100 /* Entitilements */,
 				1A054F831B801370005E0100 /* Delegates */,
 				1A054F5F1B80131B005E0100 /* Support */,
 				1A054F8A1B801399005E0100 /* Views */,
 				1A054F871B801381005E0100 /* Images */,
+				1A054F8C1B8013DA005E0100 /* Entitilements */,
 			);
 			path = ShowTime;
 			sourceTree = "<group>";
